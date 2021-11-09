@@ -2,7 +2,7 @@
 
 This is a simple node server app which uses the `cors-anywhere` npm package to bypass CORS errors when fetching from a third-party API.
 
-You can easily repurpose this app for your own needs by adding your website URL to the whitelist:
+You can easily repurpose this app for your own needs by adding your website URL to the whitelist array:
 ```
 originWhitelist: ["https://react-crypto-watcher.netlify.app"]
 ```
